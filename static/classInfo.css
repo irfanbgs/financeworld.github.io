@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+h1{
+    text-align: center;
+    padding: 2px 3px;
+    margin: 60px 3px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+#main::before{
+    content: "";
+    background: url(../static/coursesbg.png) no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 80vh;
+}
+#courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 2px 3px;
+    margin: 2px 3px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.contain-content{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.contain-content h3{
+    text-align: center;
+    padding: 2px 3px;
+    margin: 10px 3px;
+    font-size: 24px;
+    
+}
+.contain-content p{
+    padding: 2px 3px;
+    margin: 8px 3px;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 0 0;
+
+}
+.contain-content button{
+    padding: 7px 10px;
+    margin: 13px 3px;
+    cursor: pointer;
+    background-color: #fffb20;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px rgb(255, 235, 11);
+    font-size: 18px;
+}

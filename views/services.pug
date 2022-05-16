@@ -1,0 +1,26 @@
+extends base.pug
+
+ 
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/servicesStyle.css
+
+block content
+    div#maincontainer 
+        h1 Get the help you need
+        p Learn Trading the simple way
+        button(class="btn" onclick="window.location.href = 'https://www.google.com';") Get Started
+    #youtubeBox 
+        iframe(src="https://www.youtube.com/embed/-eA6utnkF1c",allowfullscreen, frameborder="0") 
+        h3 Our Youtube Channel
+    #podcasts
+        input(type="range" min="0" max="100" value="0" id="myProgressBar")
+        .icons  
+            i(class="fa-solid fa-3x fa-backward")
+            i(class="fa-solid fa-3x fa-circle-play" id="playPodcast")
+            i(class="fa-solid fa-3x fa-forward")
+block scripts 
+    script(src="/static/index.js")
+    script(src="https://kit.fontawesome.com/92bd98f942.js",crossorigin="anonymous") 

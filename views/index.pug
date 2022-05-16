@@ -1,0 +1,36 @@
+//- index.pug
+doctype html
+html
+  head
+    title Trading Trek
+    style
+      include ../static/style.css
+  body
+    nav#navigation 
+        ul
+            div#logo
+              img(src='../static/logo.png')
+            li #[a(href="/") Home]
+            li #[a(href="/") Services]
+            li #[a(href="/") About us]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact]
+    section#IntroSection 
+        div#mainHeading Trading Trek
+        div#subHeading Learn Trading the Simple Way
+    section#Sponser 
+        h3 Our Sponsers
+        div#SponserImg
+          div.sponserBox
+            img(src='../static/hcl.png',alt='hcl')
+          div.sponserBox
+            img(src='../static/infosys.png',alt='infosys')
+          div.sponserBox
+            img(src='../static/tcs.png',alt='tcs')
+          div.sponserBox
+            img(src='../static/wipro.png',alt='wipro')
+        
+    section#Footer 
+        footer#footer © 2022 Tradingtrek.com. All rights reserved
+    script
+      include ../static/index.js

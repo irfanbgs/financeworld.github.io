@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navigation {
+    background-color: #313e7f;
+    padding: 8px 3px;
+    font-family: 'Merriweather', serif;
+}
+
+#navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 35px;
+    width: 35px;
+    margin: 0px 20px;
+}
+
+#navigation li {
+    list-style: none;
+
+}
+
+#navigation li a {
+    text-decoration: none;
+    color: white;
+    margin: 2px 3px;
+    padding: 2px 20px;
+
+}
+
+#IntroSection {
+    padding-bottom: 80px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url(/static/bg.jpg);
+    opacity: 0.8;
+}
+
+#mainHeading {
+    font-size: 50px;
+    color: tomato;
+    padding: 7px 3px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#subHeading {
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+#SponserImg {
+    height: 225px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Sponser h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    padding: 2px 3px;
+    margin: 18px 3px;
+}
+
+.sponserBox img {
+    height: 150px;
+    width: 170px;
+    margin: 3px 27px;
+    padding: 9px 4px;
+}
+
+#Footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 7px 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+#CustomerFeedbacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custFeedback{
+    width: 300px;
+    height: 300px;
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    margin-bottom: 60px;
+}
+#copyTest h1{
+    text-align: center;
+    padding: 5px 3px;
+    margin: 20px 6px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245 223 206);
+    border-radius: 2px solid black;
+    margin: 2px;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+    
+}
+.testimonials p{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    font-size: 28px;
+}
+
+
+.infosection{
+    height: 450px;
+    width: 100%;
+    background-color: bisque;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url(/static/bgcourse.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.infosection h2{
+    width: 45%;
+    color: #f9f9f9;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: right;
+    margin: 12px 71px;
+}
+.infosection p{
+    width: 35%;
+    margin-bottom: 25px;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-align: right;
+    margin: 12px 71px;
+}
+.infosection button{
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    transition: border-color 300ms ease, background-color 300ms ease;
+    font-weight: 700;
+    border-color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #222;
+    margin: 12px 71px;
+    cursor: pointer;
+}
+
+.social-links{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    /* align-items: center; */
+}
+.social-links a {
+
+}
+.social-links a img{
+    margin: 10px 8px;
+    padding: 2px 2px;
+    height: 40px;
+    width: 40px;
+}

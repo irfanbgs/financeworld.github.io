@@ -1,0 +1,30 @@
+extends base.pug
+
+
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/contactStyle.css
+
+block content 
+    .main 
+        .sub-main
+            .contact-left 
+                h2 Contact us 
+                p Patna, Begusarai - 851101
+                p
+                p General Inquiries: (405) 555-5555
+                p Customer Support: (405) 555-5556
+            div.container
+                h1 Join the Best Trading Community
+                p Send us a message and we'll get back to you as soon as we can!
+                form(action="/contact", method ="post", class ="myForm") 
+                    input(type="text",class="myInput",name ="name",placeholder="Enter your name")
+                    input(type="text",class="myInput",name ="number",placeholder="Enter your number")
+                    input(type="text",class="myInput",name ="email",placeholder="Enter your email")
+                    input(type="text",class="myInput",name ="age",placeholder="Enter your age")
+                    input(type="text",class="myInput",name ="occupation",placeholder="Enter your occupation")
+                    button(class="btn") Submit
+block scripts 
+    script(src="'/static/index.js") 

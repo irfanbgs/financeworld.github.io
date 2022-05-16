@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+#maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-family: 'Ubuntu', sans-serif;  
+}
+#maincontainer::before{
+    content: "";
+    background: url(../static/bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#maincontainer h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+#maincontainer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2rem;
+    margin:8px 3px;
+}
+.btn{
+    margin: 22px 3px;
+    padding: 8px 18px;
+    cursor: pointer;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 2px rgb(0 0 0);
+    font-size: 18px;
+    
+}
+
+
+
+#podcasts {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 90px;
+    bottom:320px;
+    justify-content: center;
+    align-items: center;
+}
+#podcasts input{
+    margin: 10px 3px;
+    width: 30vh;
+    
+}
+#podcasts i{
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+#youtubeBox{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+#youtubeBox iframe{
+    width: 300px;
+    height: 200px;
+}
+#youtubeBox h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2px 3px;
+    margin: 6px 3px;
+}

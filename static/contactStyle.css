@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sub-main{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 12px;
+    top: 128px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.contact-left h2{
+    font-size: 30px;
+    padding: 2px 3px;
+    margin: 10px 3px;
+}
+.contact-left p{
+    padding: 2px 3px;
+    margin: 2px 3px;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    margin: 55px 3px;
+}
+.container{
+    height: 79vh;
+}
+.container p{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 440px;
+    margin: 6px 6px;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn{
+    width: 300px;
+    margin: 20px 6px;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(240, 123, 102);
+}

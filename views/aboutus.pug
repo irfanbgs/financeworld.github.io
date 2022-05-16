@@ -1,0 +1,25 @@
+extends base.pug
+
+
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/aboutstyle.css
+
+block content 
+    .heading                
+        img(src="/static/head.png", alt="")
+        h3 Mr. XYZ 
+        h4 CEO and Founder
+
+    .contentBody 
+        img(src="/static/ceo.jpg", alt="")
+        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio est vero vel! Qui porro non corporis saepe adipisci Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum esse consequatur porro laudantium aspernatur blanditiis quaerat qui, rem magnam neque eveniet. Itaque, et, iure consequatur repellendus optio minus accusantium veritatis dolores delectus ipsum aperiam praesentium 
+        
+    .maps 
+        iframe( src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7195.2231795172165!2d85.13932099724359!3d25.617819834488913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58598eb52405%3A0x7f6d196ac3dce5ce!2sGandhi%20Maidan!5e0!3m2!1sen!2sin!4v1650449314358!5m2!1sen!2sin" ,width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade",frameborder="0") 
+        
+
+block scripts 
+    script(src="'/static/index.js") 
